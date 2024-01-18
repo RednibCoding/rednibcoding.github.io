@@ -1,0 +1,77 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div class="link-card">
+    <div class="container">
+        <h2>Let's start working together!</h2>
+
+        <h3 class="text-gray-500 text-lg font-bold italic mt-4">
+            Contact Details
+        </h3>
+        <div class="italic flex items-center space-x-2">
+            <Icon name="ri:mail-fill" size={20} class="h-6" />
+            <a href="mailto:rednib.coding@gmail.com">rednib.coding@gmail.com</a>
+        </div>
+
+        <h3 class="text-gray-500 text-lg font-bold italic mt-4">Socials</h3>
+        <ul>
+            <li class="flex items-center space-x-2">
+                <Icon name="ri:linkedin-box-fill" size={20} class="h-8" />
+                <a href="https://www.linkedin.com/in/michael-binder-aka-rednib"
+                    >LinkedIn</a
+                >
+            </li>
+            <li class="flex items-center space-x-2">
+                <Icon name="ri:github-fill" size={20} class="h-8" />
+                <a href="https://github.com/RednibCoding">Github</a>
+            </li>
+            <li class="flex items-center space-x-2">
+                <Icon name="ri:discord-fill" size={20} class="h-8" />
+                <a href="https://www.discord.com/users/778291831766515793"
+                    >Discord</a
+                >
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+    .link-card {
+        list-style: none;
+        display: flex;
+        padding: 1px;
+        background-color: #23262d;
+        background-image: none;
+        background-size: 400%;
+        border-radius: 7px;
+        background-position: 100%;
+        transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .link-card > .container {
+        width: 100%;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.4;
+        padding: calc(1.5rem - 1px);
+        border-radius: 8px;
+        color: white;
+        background-color: #23262d;
+        opacity: 0.8;
+    }
+
+    li {
+        margin: 0.2rem;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+</style>

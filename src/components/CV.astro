@@ -1,0 +1,56 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div class="link-card">
+    <div class="container">
+        <h2 class="mb-4">Curriculum Vitae</h2>
+        <a
+            class="flex items-center gap-2 text-accent-light"
+            href="https://media.licdn.com/dms/document/media/D562DAQF5vJn1YekQvg/profile-treasury-document-pdf-analyzed/0/1699488346299?e=1706140800&v=beta&t=L5XFAYinUvX40M7ZPmWGexw4jn-_ELQkoeYdRvI0ra4"
+        >
+            <Icon name="ri:file-line" size={20} class="h-8" />
+            cv-michael-binder.pdf
+        </a>
+    </div>
+</div>
+
+<style>
+    .link-card {
+        list-style: none;
+        display: flex;
+        padding: 1px;
+        background-color: #23262d;
+        background-image: none;
+        background-size: 400%;
+        border-radius: 7px;
+        background-position: 100%;
+        transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    }
+
+    .link-card > .container {
+        width: 100%;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.4;
+        padding: calc(1.5rem - 1px);
+        border-radius: 8px;
+        color: white;
+        background-color: #23262d;
+        opacity: 0.8;
+    }
+
+    li {
+        margin: 0.2rem;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+</style>
