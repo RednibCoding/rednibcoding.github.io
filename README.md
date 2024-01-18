@@ -2,12 +2,12 @@
 ![](readme/screenshot-01.png)
 
 # Visit it
-> [Portfolio](https://rednibcoding.github.io/Portfolio/)
+> [Me](https://rednibcoding.github.io/)
 
 # Try it
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/RednibCoding/Portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/RednibCoding/Portfolio)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rednibcoding.github.io)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/rednibcoding.github.io)
 
 > 🧑‍🚀 **Seasoned astronaut?** Have fun!
 
