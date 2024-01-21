@@ -1,16 +1,22 @@
 ---
-import Card from "./Card.astro";
 import { Icon } from "astro-icon/components";
 ---
 
 <div class="link-card">
-    <p class="text-xs container opacity-80 pl-6 pr-6">
-        © 2023 · Crafted with <span class="text-red-500 text-[1rem]">♥️</span> using
+    <p class="text-xs opacity-80 pl-6 pr-6">
+        &copy; <span id="copyright"></span> · Crafted with <span
+            class="text-red-500 text-[1rem]">♥️</span
+        > using
         <a href="https://astro.build/" target="_blank" class="text-red-500"
             >Astro</a
-        > by Michael.
+        > by Michael
     </p>
 </div>
+
+<script>
+    const copy = document.querySelector("#copyright");
+    copy.textContent = new Date().getFullYear().toString();
+</script>
 
 <style>
     .link-card {
